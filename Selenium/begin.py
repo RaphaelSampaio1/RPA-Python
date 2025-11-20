@@ -46,6 +46,8 @@ def iniciar_driver(driver):
 
     ==================== USAR CONTA CHROME (EVITAR LOGIN) ====================
 
+    Sempre use import undetected_chromedriver as uc  para não detectar
+    
     r'--user-data-dir=C:\Users\______SEU_USUARIO_______\AppData\Local\Google\Chrome\User Data'
     r'--profile-directory=Profile 1') # OU Profile 1, olhe a pasta do seu usuário para ver qual é o seu (Uusario chrome)
     
