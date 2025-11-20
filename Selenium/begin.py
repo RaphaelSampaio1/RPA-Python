@@ -43,6 +43,13 @@ def iniciar_driver(driver):
     --disable-gpu
         Evita erros em ambientes sem GPU (Linux VMs).
 
+
+    ==================== USAR CONTA CHROME (EVITAR LOGIN) ====================
+
+    r'--user-data-dir=C:\Users\______SEU_USUARIO_______\AppData\Local\Google\Chrome\User Data'
+    r'--profile-directory=Profile 1') # OU Profile 1, olhe a pasta do seu usuário para ver qual é o seu (Uusario chrome)
+    
+
     ==================== RENDER / PERFORMANCE ====================
 
     --disable-extensions
